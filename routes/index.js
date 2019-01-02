@@ -4,7 +4,7 @@ const router = express.Router();
 
 
 router.get('/', (req, res) => {
-    res.send('Welcome to passport login tutorial');
+    res.render('welcome');
 });
 
 
