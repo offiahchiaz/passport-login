@@ -4,12 +4,12 @@ const router = express.Router();
 
 // Login Page
 router.get('/login', (req, res) => {
-    res.send('Login');
+    res.render('login');
 });
 
 // Signup Page
 router.get('/signup', (req, res) => {
-    res.send('Signup');
+    res.render('signup');
 });
 
 
