@@ -1,3 +1,3 @@
 module.exports = {
-    MongoURI: 'ADD_MONGO_URI_HERE'
+    MongoURI: 'mongodb://offiahchiaz:myogi2014@ds147354.mlab.com:47354/passportlogin'
 };

@@ -18,7 +18,7 @@ router.post('/signup', (req, res) => {
     let errors = [];
 
     // Check required fields
-    if(!name || !email || !password || !password2) {
+    if (!name || !email || !password || !password2) {
         errors.push({msg: 'Please fill in all fields'});
     }
 
